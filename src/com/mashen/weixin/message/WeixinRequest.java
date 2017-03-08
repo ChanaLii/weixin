@@ -15,7 +15,7 @@ public class WeixinRequest {
 	private String Event;
 	private String EventKey;
 	private String Ticket;
-	//
+	//语音消息
 	private String Recognition;
 	private String Format;
 	private String MediaId;

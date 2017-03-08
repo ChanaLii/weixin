@@ -109,13 +109,18 @@ public class WeixinApi {
 			message.setMediaId(md.getMedia_id());*/
 			
 			//sendCustomMessage(message);
-			/*QRTicketRequest request=new QRTicketRequest();
-			request.addSceneId("1");
-			getQrTicket(request);*/
+			
+			//QRTicketRequest request=new QRTicketRequest();
+			//request.addSceneId("1");
+			//getQrTicket(request);
+			
 			//upload("d:/1.jpg",Media.TYPE_IMAGE);
 			//WeixinApi.getAccessToken();
-			//getUserInfo("oQNb8wmOoUNkLBYAhJlFqoPnQFfE");
-			createMenu(Menu.getDefalutMenu());
+			
+			//UserInfo userInfo = getUserInfo("oUTBRxFUGQ6kGVK9JtTFULRyEDaU");
+			//System.out.println(userInfo.toString());
+			
+			//createMenu(Menu.getDefalutMenu());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
